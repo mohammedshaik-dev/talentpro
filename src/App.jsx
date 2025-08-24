@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/talentpro">
       <div className="min-h-screen bg-background">
         <Navbar />
         <main>
